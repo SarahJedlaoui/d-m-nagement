@@ -1,0 +1,112 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  background: url('../../assets/images/home.jpeg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+  display: flex;
+}
+
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS';
+}
+.hero-parag {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+ }
+.hero-parag > h3 {
+  color: #fff;
+  font-size: 50px;
+ 
+  margin: 6px;
+  display: flex;
+  /*padding-right: 100px;
+  padding-left: 400px;*/
+  font-family: 'Trebuchet MS';
+
+}
+.hero-parag > h4 {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+  .hero-parag > h3 {
+    font-size: 30px;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+  .hero-parag > h3 {
+    font-size: 30px;
+  }
+    .hero-parag > h4 {
+      font-size: 10px;
+      
+    }
+  
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
